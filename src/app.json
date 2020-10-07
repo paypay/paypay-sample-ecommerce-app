@@ -1,0 +1,20 @@
+{
+  "appName": "paypay-sample-ecommerce-miniapp",
+  "version": "1.0",
+  "baseLibraryVersion": "1.0",
+  "pages": [
+    "pages/dashboard/dashboard",
+    "pages/orderReview/orderReview"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Sample Title",
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": true
+  },
+  "whiteListDomains": [
+    "example.com"
+  ]
+}
