@@ -1,0 +1,14 @@
+.bg__shared {
+  height: 100vh;
+  background-image: url("../../assets/oval_m.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.bg__loading {
+  height: 100vh;
+  background-image: url("../../assets/oval_m.svg"),
+    url("../../assets/oval_s.svg"), url("../../assets/oval.svg");
+  background-position: left bottom, left bottom, right 5% top 20%;
+  background-repeat: no-repeat;
+}
