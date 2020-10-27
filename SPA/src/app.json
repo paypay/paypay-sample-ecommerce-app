@@ -1,0 +1,19 @@
+{
+  "appName": "paypay-sample-ecommerce-miniapp",
+  "version": "1.0",
+  "baseLibraryVersion": "1.0",
+  "pages": [
+    "pages/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "navigationBarTextStyle": "#f56a76",
+    "navigationBarTitleText": "Mune Cake Shop",
+    "navigationStyle": "default",
+    "enablePullDownRefresh": true
+  },
+  "whiteListDomains": [
+    "example.com"
+  ]
+}
