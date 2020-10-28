@@ -35,7 +35,7 @@ export default class Item extends Vue {
   }
 
   @CartMutation addToCart: any
-
+  // eslint-disable-next-line
   @CartGetter hasItemInCart!: (id: number) => boolean
 }
 </script>

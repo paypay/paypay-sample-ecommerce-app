@@ -5,7 +5,9 @@
         <i class="cake_logo"></i>
         <div class="cake_logo_text">
           <span class="cake_logo_text__brand">{{ $t('cake_shop.mune') }}</span>
-          <span class="cake_logo_text__shop">{{ $t('cake_shop.cake_shop') }}</span>
+          <span class="cake_logo_text__shop">{{
+            $t('cake_shop.cake_shop')
+          }}</span>
         </div>
       </div>
     </div>
