@@ -1,1 +1,0 @@
-# paypay-sample-ecommerce-app
