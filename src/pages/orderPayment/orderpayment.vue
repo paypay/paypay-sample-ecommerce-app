@@ -60,6 +60,11 @@ export default class OrderPayment extends Vue {
   @CartModule.Getter cartItems!: iItem[]
   @CartModule.Getter getSum!: number
   @CartModule.Getter getMerchantId!: number
+  @CartModule.Mutation clearCart: any
+
+  beforeDestroy() {
+    this.clearCart()
+  }
 }
 </script>
 

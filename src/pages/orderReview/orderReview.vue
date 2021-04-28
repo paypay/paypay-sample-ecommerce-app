@@ -99,7 +99,6 @@ export default class OrderReview extends Vue {
   @CartModule.Getter getSum!: number
   @CartModule.Mutation removeFromCart: any
   @CartModule.Mutation updateMerchantId: any
-  @CartModule.Mutation clearCart: any
   paymentSucces: boolean = false
 
   getImagePath(name: string): string {
@@ -139,7 +138,6 @@ export default class OrderReview extends Vue {
       },
       complete: () => {
         if (this.paymentSucces) {
-          this.clearCart()
           this.$router.push({
             name: 'orderpayment',
           })
