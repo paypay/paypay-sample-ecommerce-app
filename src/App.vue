@@ -14,7 +14,7 @@ import pp from '@paypay/mini-app-js-sdk'
 export default class AppRoot extends Vue {
   mounted() {
     pp.init({
-      clientId: 'm_abCdefghiJ', //TO DO
+      clientId: 'm_abCdefghiJ',
       env: 'sandbox', //default: 'production'
       success() {
         console.log('init successful')
